@@ -64,7 +64,7 @@ const DeviceEmulator: React.FC<{ children: React.ReactNode; isBooting: boolean }
         <div className="relative w-full h-full bg-black rounded-[38px] overflow-hidden flex flex-col">
           
           {/* iOS Status Bar */}
-          <div className="absolute top-0 inset-x-0 h-10 grid grid-cols-[1fr_auto_1fr] px-5 z-50 text-black mix-blend-difference pointer-events-none text-[11px] font-semibold items-center">
+          <div className="absolute top-0 inset-x-0 h-10 grid grid-cols-[1fr_auto_1fr] px-5 z-50 text-black pointer-events-none text-[11px] font-semibold items-center">
             <p>9:41</p>
             {/* Dynamic Island */}
             <div className="w-25 h-6 bg-black rounded-full flex items-center justify-end px-2.5 mt-1 shadow-inner mx-auto">
