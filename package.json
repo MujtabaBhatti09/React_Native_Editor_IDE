@@ -1,5 +1,5 @@
 {
-  "name": "sandboxapp",
+  "name": "RN_WebEditor",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,23 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@babel/standalone": "^7.29.7",
+    "@gsap/react": "^2.1.2",
+    "@monaco-editor/react": "^4.7.0",
+    "gsap": "^3.15.0",
     "next": "16.2.6",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "react-native-web": "^0.21.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/babel__standalone": "^7.1.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-native-web": "^0.19.2",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
