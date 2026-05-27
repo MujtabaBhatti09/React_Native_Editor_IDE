@@ -91,7 +91,7 @@ const DeviceEmulator: React.FC<{ children: React.ReactNode; isBooting: boolean }
           </div>
 
           {/* Render Playground App Output Screen */}
-          <div ref={appContainerRef} className="flex-1 bg-neutral-100 overflow-y-auto relative text-neutral-900 pt-12 p-4">
+          <div ref={appContainerRef} className="flex-1 bg-neutral-100 overflow-y-auto relative text-neutral-900">
             {children}
           </div>
 
